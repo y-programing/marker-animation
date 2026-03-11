@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marker {
+    font-weight: bold;
+    background-image:
+        linear-gradient(
+            to bottom,
+            transparent 70%,
+            yellow 70%
+        )
+    ;
+    background-repeat: no-repeat;
+    animation: marker 1s ease-in-out forwards;
+}
+
+@keyframes marker {
+    from {
+        background-size: 0%;
+    }
+    to {
+        background-size: 100%;
+    }
+}
